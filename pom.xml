@@ -4,7 +4,7 @@
     <groupId>com.basaki.example</groupId>
     <artifactId>jpa-projection-spring</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <name>JPA Projection Spring Boot Example</name>
 
     <properties>

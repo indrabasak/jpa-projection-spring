@@ -1,7 +1,7 @@
 project:
     artifactId: book
     name: book
-    version: 1.0.0-SNAPSHOT
+    version: 1.0.0
     description: Demo project for info endpoint
 
 # For Spring Actuator /info endpoint
@@ -20,6 +20,7 @@ spring:
   datasource:
     url: jdbc:hsqldb:mem:dataSource
     username: sa
+    #doesn't work in new spring version
     #schema: db/create-db.sql
     testWhileIdle: true
     validationQuery: SELECT 1
